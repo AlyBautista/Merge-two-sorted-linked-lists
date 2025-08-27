@@ -1,1 +1,1 @@
-# Merge-two-sorted-linked-lists
+I first check if one of the lists is empty, and if so, I return the other list. Then I create a dummy node to help build the merged list and use a pointer tail to track the end. I move through both lists, comparing the current nodes, and always attach the smaller one to the merged list. After moving tail forward, I continue until one list ends. Finally, I attach the remaining nodes from the non-empty list and return the merged list starting from dummy.next.
